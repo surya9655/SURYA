@@ -1,0 +1,135 @@
+.container{
+    max-width: 850px;
+    background-color: aliceblue;
+    border: 2px solid rgb(198, 216, 198);
+    /* height:1700px;
+    width: 1500px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main{
+    border: 2px solid rgb(190, 212, 190);
+    background-color: aliceblue;
+    height:1600px;
+    max-width:400px;
+    /* width: 500px; */
+}
+
+.image{
+     display:flex;
+     margin-left: 20px;
+    
+   
+}
+img{
+    
+    height: 200px;
+    width:200px
+    
+}
+.contact{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size:20px;
+    
+}
+i{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.skills{
+    display: flex;
+    margin-top: -20px;
+}
+.proficient{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+    
+}
+.familiar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    gap: 10px;
+}
+.Language{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+.personal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+.strength{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+.patent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+   
+}
+.design{
+    margin-left:30px;
+}
+.personalinformation{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.main1{
+    display: flex;
+    margin-right: 100px ;
+    flex-direction: column;
+    
+}
+.carrer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+p{
+    margin-left: 20px;
+}
+.internship{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+.certification{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+
